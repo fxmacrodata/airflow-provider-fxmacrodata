@@ -4,6 +4,8 @@ An Apache Airflow provider for [FXMacroData](https://fxmacrodata.com): official-
 macroeconomic, FX and central-bank data for 18 currencies — with a sensor that waits for a
 release to *actually land* rather than for the clock to strike.
 
+[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=airflow_subscribe) for non-USD data, full available history, FX, commodities and positioning. Use the public USD workflow to evaluate the integration before connecting your subscription.
+
 ## Why a sensor
 
 A scheduled release time is a plan, not an event. Statistical agencies run late. A DAG that
@@ -45,10 +47,10 @@ point: the connection type, hook, operators and sensor all register at startup.
 
 ## Authentication
 
-**USD data is public — the provider works with no connection at all.**
+Evaluate the provider with public USD data without creating an Airflow connection. Connect your FXMacroData subscription for protected datasets and full available history.
 
-For the other seventeen currencies, FX rates, rate differentials, COT positioning and
-commodities, create an Airflow connection:
+For non-USD data, FX rates, rate differentials, COT positioning and
+commodities, create an Airflow connection using your subscription's API key:
 
 | Field | Value |
 | --- | --- |
