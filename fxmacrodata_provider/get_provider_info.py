@@ -42,7 +42,11 @@ def get_provider_info() -> dict[str, Any]:
         "integrations": [
             {
                 "integration-name": "FXMacroData",
-                "external-doc-url": "https://fxmacrodata.com/documentation",
+                "external-doc-url": (
+                    "https://fxmacrodata.com/documentation?utm_source=airflow"
+                    "&utm_medium=integration&utm_campaign=airflow-provider-fxmacrodata"
+                    "&utm_content=docs"
+                ),
                 "tags": ["service"],
             }
         ],

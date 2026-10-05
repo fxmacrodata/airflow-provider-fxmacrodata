@@ -39,8 +39,8 @@ dependencies = ["apache-airflow>=2.7.0"]
 dev = ["pytest>=7", "ruff>=0.6"]
 
 [project.urls]
-Homepage = "https://fxmacrodata.com"
-Documentation = "https://fxmacrodata.com/documentation"
+Homepage = "https://fxmacrodata.com/?utm_source=pypi&utm_medium=referral&utm_campaign=airflow-provider-fxmacrodata&utm_content=homepage"
+Documentation = "https://fxmacrodata.com/documentation?utm_source=pypi&utm_medium=referral&utm_campaign=airflow-provider-fxmacrodata&utm_content=docs"
 Source = "https://github.com/fxmacrodata/airflow-provider-fxmacrodata"
 
 # How Airflow discovers this provider. Airflow reads this entry point at startup
