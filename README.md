@@ -1,6 +1,6 @@
 # airflow-provider-fxmacrodata
 
-An Apache Airflow provider for [FXMacroData](https://fxmacrodata.com): official-source
+An Apache Airflow provider for [FXMacroData](https://fxmacrodata.com/?utm_source=github&utm_medium=referral&utm_campaign=airflow-provider-fxmacrodata&utm_content=readme): official-source
 macroeconomic, FX and central-bank data for 18 currencies — with a sensor that waits for a
 release to *actually land* rather than for the clock to strike.
 
