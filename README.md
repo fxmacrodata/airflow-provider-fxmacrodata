@@ -4,7 +4,7 @@ An Apache Airflow provider for [FXMacroData](https://fxmacrodata.com/?utm_source
 macroeconomic, FX and central-bank data for 18 currencies — with a sensor that waits for a
 release to *actually land* rather than for the clock to strike.
 
-[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=airflow_subscribe) for non-USD data, full available history, FX, commodities and positioning. Use the public USD workflow to evaluate the integration before connecting your subscription.
+[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=airflow-provider-fxmacrodata&utm_content=subscribe) for non-USD data, full available history, FX, commodities and positioning. Use the public USD workflow to evaluate the integration before connecting your subscription.
 
 ## Why a sensor
 
